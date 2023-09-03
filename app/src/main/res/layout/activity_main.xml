@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#aaa"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/titulo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:textSize="25dp"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        android:padding="10dp"
+        android:textColor="@color/black"
+        android:text="O Game do Cruxificado"
+        />
+
+    <ImageView
+        android:id="@+id/icone"
+        android:layout_width="291dp"
+        android:layout_height="250dp"
+        android:layout_margin="50dp"
+        android:background="@color/white"
+        android:src="@drawable/ic_launcher_foreground" />
+
+    <Button
+        android:id="@+id/jesus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:text="Jesus Cristo"
+        android:textSize="25dp"
+        android:layout_marginBottom="20dp"
+        />
+
+    <Button
+        android:id="@+id/maria"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:text="Nossa Senhora"
+        android:textSize="25dp"
+        android:layout_marginBottom="20dp" />
+
+    <Button
+        android:id="@+id/santos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:text="Os Santos"
+        android:textSize="25dp"
+        android:layout_marginBottom="20dp" />
+
+    <Button
+        android:id="@+id/santas"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:text="As Santas"
+        android:textSize="25dp"
+         />
+
+
+</LinearLayout>
