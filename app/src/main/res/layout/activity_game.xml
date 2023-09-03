@@ -1,9 +1,233 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/azul_claro"
     tools:context=".Game">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <TextView
+        android:id="@+id/titulo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/marron"
+        android:text="O Game"
+        android:textSize="25dp"
+        android:padding="10dp"
+        android:textAlignment="center"
+        android:textColor="@color/branco"
+        android:textStyle="bold"
+
+        />
+
+    <ImageView
+        android:id="@+id/crucifixo"
+        android:layout_width="265dp"
+        android:layout_height="191dp"
+        android:src="@drawable/ic_launcher_foreground"
+        android:layout_marginLeft="25dp"
+        />
+
+    <TextView
+        android:id="@+id/palavraTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:textColor="@color/branco"
+        android:text="A Palavra a ser Adivinhada"
+        android:background="@color/marron"
+        android:textStyle="bold"
+        android:padding="10dp"
+        android:layout_marginLeft="50dp"
+        />
+
+    <TextView
+        android:id="@+id/tentativasTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:textSize="20dp"
+        android:textColor="@color/branco"
+        android:text="Falta: 4"
+        android:padding="5dp"
+        android:background="@color/marron"
+        android:layout_marginLeft="50dp"
+        />
+
+    <GridLayout
+        android:id="@+id/teclado"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:columnCount="5"
+        android:rowCount="5"
+        android:layout_marginTop="25dp"
+        android:layout_marginLeft="50dp"
+        >
+
+        <Button
+            android:id="@+id/botao_A"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:text="A"
+
+            />
+
+        <Button
+            android:id="@+id/botao_B"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:text="B"
+            />
+
+        <Button
+            android:id="@+id/botao_C"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:text="C"
+            />
+
+        <Button
+            android:id="@+id/botao_D"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:text="D"
+            />
+
+        <Button
+            android:id="@+id/botao_E"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:text="E" />
+
+        <Button
+            android:id="@+id/botao_F"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:text="F" />
+
+        <Button
+            android:id="@+id/botao_G"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:text="G" />
+
+        <Button
+            android:id="@+id/botao_H"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:text="H" />
+
+        <Button
+            android:id="@+id/botao_I"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:text="I" />
+
+        <Button
+            android:id="@+id/botao_J"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:text="J" />
+
+        <Button
+            android:id="@+id/botao_K"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:text="K" />
+
+        <Button
+            android:id="@+id/botao_L"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:text="L" />
+
+        <Button
+            android:id="@+id/botao_M"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:text="M" />
+
+        <Button
+            android:id="@+id/botao_N"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:text="N" />
+
+        <Button
+            android:id="@+id/botao_O"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:text="O" />
+
+        <Button
+            android:id="@+id/botao_P"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:text="P" />
+
+        <Button
+            android:id="@+id/botao_Q"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:text="Q" />
+
+        <Button
+            android:id="@+id/botao_R"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:text="R" />
+
+        <Button
+            android:id="@+id/botao_S"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:text="S" />
+
+        <Button
+            android:id="@+id/botao_T"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:text="T" />
+
+        <Button
+            android:id="@+id/botao_U"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:text="U" />
+
+        <Button
+            android:id="@+id/botao_V"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:text="V" />
+
+        <Button
+            android:id="@+id/botao_W"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:text="W" />
+
+        <Button
+            android:id="@+id/botao_X"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:text="X" />
+
+        <Button
+            android:id="@+id/botao_Y"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:text="Y" />
+
+        <Button
+            android:id="@+id/botao_Z"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:text="Z" />
+
+    </GridLayout>
+
+
+</LinearLayout>

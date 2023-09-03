@@ -5,20 +5,20 @@
     android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#aaa"
+    android:background="@color/azul_claro"
     tools:context=".MainActivity">
 
     <TextView
         android:id="@+id/titulo"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="@color/white"
+        android:background="@color/marron"
         android:textSize="25dp"
         android:textAlignment="center"
         android:textStyle="bold"
         android:padding="10dp"
-        android:textColor="@color/black"
-        android:text="O Game do Cruxificado"
+        android:textColor="@color/branco"
+        android:text="O Game do Crucificado"
         />
 
     <ImageView
@@ -26,16 +26,17 @@
         android:layout_width="291dp"
         android:layout_height="250dp"
         android:layout_margin="50dp"
-        android:background="@color/white"
+        android:background="@color/branco"
         android:src="@drawable/ic_launcher_foreground" />
 
     <Button
         android:id="@+id/jesus"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="@color/white"
+        android:background="@color/marron"
         android:text="Jesus Cristo"
         android:textSize="25dp"
+        android:textColor="@color/branco"
         android:layout_marginBottom="20dp"
         />
 
@@ -43,26 +44,29 @@
         android:id="@+id/maria"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="@color/white"
+        android:background="@color/marron"
         android:text="Nossa Senhora"
         android:textSize="25dp"
+        android:textColor="@color/branco"
         android:layout_marginBottom="20dp" />
 
     <Button
         android:id="@+id/santos"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="@color/white"
+        android:background="@color/marron"
         android:text="Os Santos"
         android:textSize="25dp"
+        android:textColor="@color/branco"
         android:layout_marginBottom="20dp" />
 
     <Button
         android:id="@+id/santas"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="@color/white"
+        android:background="@color/marron"
         android:text="As Santas"
+        android:textColor="@color/branco"
         android:textSize="25dp"
          />
 
