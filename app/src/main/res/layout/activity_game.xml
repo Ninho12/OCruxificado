@@ -6,7 +6,8 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:background="@color/azul_claro"
-    tools:context=".Game">
+    tools:context="com.codigodasantidade.crucificado.Game">
+
 
     <TextView
         android:id="@+id/titulo"

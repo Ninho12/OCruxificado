@@ -12,6 +12,7 @@ class MainActivity : Activity() {
     private lateinit var _Maria: Button
     private lateinit var _Santos: Button
     private lateinit var _Santas: Button
+    private lateinit var _Santidade: Button
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -22,6 +23,7 @@ class MainActivity : Activity() {
         _Maria = findViewById(R.id.maria)
         _Santos = findViewById(R.id.santos)
         _Santas = findViewById(R.id.santas)
+        _Santidade = findViewById(R.id.comunidade)
 
 
     }
@@ -47,6 +49,13 @@ class MainActivity : Activity() {
         _Santas.setOnClickListener {
             intent.putExtra("tema", "Santas")
             startActivity(intent)
+        }
+
+        val intent_2 = Intent(this, CodigoSantidade::class.java)
+
+        _Santidade.setOnClickListener {
+
+            startActivity(intent_2)
         }
     }
 

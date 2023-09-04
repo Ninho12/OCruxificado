@@ -1,6 +1,7 @@
 <resources>
-    <string name="app_name">O Cruxificado</string>
-    <string name="title_activity_codigo_santidade">CodigoSantidade</string>
+    <string name="app_name">O Crucificado</string>
+    <string name="title_activity_codigo_santidade">Codigo da Santidade</string>
+
     <!-- Strings used for fragments for navigation -->
     <string name="first_fragment_label">First Fragment</string>
     <string name="second_fragment_label">Second Fragment</string>
@@ -43,4 +44,6 @@
         libero vel nunc consequat, quis tincidunt nisl eleifend. Cras bibendum enim a justo luctus
         vestibulum. Fusce dictum libero quis erat maximus, vitae volutpat diam dignissim.
     </string>
+
+
 </resources>
