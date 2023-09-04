@@ -14,7 +14,6 @@
     android:layout_height="wrap_content"
     android:orientation="vertical">
 
-
     <TextView
         android:id="@+id/codigo_santidade"
         android:layout_width="match_parent"
@@ -36,9 +35,8 @@
         />
 
     <TextView
-        android:layout_width="383dp"
-        android:layout_height="124dp"
-        android:layout_marginLeft="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
         android:background="@color/branco"
         android:padding="10dp"
