@@ -85,6 +85,7 @@
         android:text="O Código da Santidade"
         android:textColor="@color/branco"
         android:textSize="25dp"
+        android:layout_marginBottom="50dp"
         />
 
 
