@@ -15,16 +15,19 @@
         <activity
             android:name="com.codigodasantidade.crucificado.CodigoSantidade"
             android:exported="false"
+            android:screenOrientation="portrait"
             android:label="@string/title_activity_codigo_santidade"
             android:theme="@style/Theme.OCruxificado" />
         <activity
-            android:name=".Game_Win"
-            android:exported="false" />
+            android:name="com.codigodasantidade.crucificado.Game_Win"
+            android:exported="false"
+            android:screenOrientation="portrait" />
         <activity
-            android:name=".Game_Over"
-            android:exported="false" />
+            android:name="com.codigodasantidade.crucificado.Game_Over"
+            android:exported="false"
+            android:screenOrientation="portrait" />
         <activity
-            android:name=".MainActivity"
+            android:name="com.codigodasantidade.crucificado.MainActivity"
             android:exported="true"
             android:label="@string/app_name"
             android:screenOrientation="portrait"
@@ -36,7 +39,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".Game"
+            android:name="com.codigodasantidade.crucificado.Game"
             android:exported="false"
             android:screenOrientation="portrait" />
     </application>
