@@ -13,6 +13,14 @@
         android:theme="@style/Theme.OCruxificado"
         tools:targetApi="31">
         <activity
+            android:name="com.codigodasantidade.crucificado.CodigoSantidade"
+            android:exported="false"
+            android:label="@string/title_activity_codigo_santidade"
+            android:theme="@style/Theme.OCruxificado" />
+        <activity
+            android:name=".Game_Win"
+            android:exported="false" />
+        <activity
             android:name=".Game_Over"
             android:exported="false" />
         <activity

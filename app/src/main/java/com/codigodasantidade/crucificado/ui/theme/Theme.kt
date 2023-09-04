@@ -1,4 +1,4 @@
-package com.codigodasantidade.cruxificado.ui.theme
+package com.codigodasantidade.crucificado.ui.theme
 
 import android.app.Activity
 import android.os.Build

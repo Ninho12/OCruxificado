@@ -1,4 +1,4 @@
-package com.codigodasantidade.cruxificado
+package com.codigodasantidade.crucificado
 
 import org.junit.Test
 

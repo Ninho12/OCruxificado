@@ -1,4 +1,4 @@
-package com.codigodasantidade.cruxificado.ui.theme
+package com.codigodasantidade.crucificado.ui.theme
 
 import androidx.compose.ui.graphics.Color
 

@@ -1,9 +1,9 @@
-package com.codigodasantidade.cruxificado
+package com.codigodasantidade.crucificado
 
-import androidx.appcompat.app.AppCompatActivity
+import android.app.Activity
 import android.os.Bundle
 
-class Game_Over : AppCompatActivity() {
+class Game_Over : Activity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_game_over)
